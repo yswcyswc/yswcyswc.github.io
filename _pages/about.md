@@ -1,14 +1,15 @@
 ---
 permalink: /
-title: "Ca"
+title: "Cathy Wang"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+
 Hello!
-======
+
 I am a second year undergraduate at Carnegie Mellon University, majoring in [Information Systems](https://www.cmu.edu/information-systems/) with an additional major in Computer Science. I am excited about computer systems, software, and data analytics. In the past summer, I have done research at the Kurnikova Lab where I developed Python wrappers to streamline bash scripting and processed data from molecular dynamics simulations, enhancing ML-guided relative binding free energy calculations. I also tested and troubleshot AMBER software protocols for computational small molecule drug discovery, ensuring robust performance and accuracy by comparing results with experimental data from research partners. Before coming to CMU, I am originally from Shanghai, China and went to Melbourne, Australia for high school.
 
 Projects
