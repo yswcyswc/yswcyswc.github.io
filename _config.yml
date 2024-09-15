@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Cathy Wang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Hmmm... ●ｖ●"
   location         : "Pittsburgh, PA, USA"
   employer         : "Carnegie Mellon University"
   uri              : # URL
@@ -229,24 +229,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _portfolio
   - scope:
       path: ""
@@ -256,14 +238,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 
 # Sass/SCSS
