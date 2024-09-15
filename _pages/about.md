@@ -29,11 +29,17 @@ Projects
 
 Coursework
 ======
-15213 Computer Systems, 15122 Data Structures, 15150 Functional Programming, 21127 Discrete Math, 36225 Probability Theory, 67262 Database Design, 21241 Linear Algebra
+* 15213 Computer Systems
+* 15122 Data Structures
+* 15150 Functional Programming
+* 21127 Discrete Math
+* 36225 Probability Theory
+* 67262 Database Design
+* 21241 Linear Algebra
 
 Skills and Interests
 ======
-**Skills**: C, Python, SQL, JavaScript, HTML, CSS
-**Technical/Software**: Git, PosgreSQL, React, Linux, Figma, Microsoft Office
-**Languages**: English (native), Chinese (native)
-**Interests**: Music, Violin, Cooking (?)
+* **Skills**: C, Python, SQL, JavaScript, HTML, CSS
+* **Technical/Software**: Git, PosgreSQL, React, Linux, Figma, Microsoft Office
+* **Languages**: English (native), Chinese (native)
+* **Interests**: Music, Violin, Cooking (?)
