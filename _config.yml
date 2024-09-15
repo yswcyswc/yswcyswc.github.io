@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Cathy Wang"
 title_separator          : "-"
 name                     : &name "Cathy Wang"
 description              : &description "personal description"
