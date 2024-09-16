@@ -8,9 +8,7 @@ redirect_from:
 ---
 
 
-Hello!
-
-I am a second year undergraduate at [Carnegie Mellon University](https://www.cmu.edu/), majoring in [Information Systems](https://www.cmu.edu/information-systems/) with an additional major in Computer Science. I am excited about computer systems, software, and data analytics. In the past summer, I have done research at the [Kurnikova Lab](https://www.cmu.edu/chemistry/people/faculty/kurnikova.html) where I developed Python wrappers to streamline bash scripting and processed data from molecular dynamics simulations, enhancing ML-guided relative binding free energy calculations. I also tested and troubleshot AMBER software protocols for computational small molecule drug discovery, ensuring robust performance and accuracy by comparing results with experimental data from research partners. Before coming to CMU, I am originally from Shanghai, China and went to Melbourne, Australia for high school.
+Hello! I am a second year undergraduate at [Carnegie Mellon University](https://www.cmu.edu/), majoring in [Information Systems](https://www.cmu.edu/information-systems/) with an additional major in Computer Science. I am excited about computer systems, software, and data analytics. In the past summer, I worked as a research intern at the [Kurnikova Lab](https://www.cmu.edu/chemistry/people/faculty/kurnikova.html) where I developed Python wrappers to streamline bash scripting and processed data from molecular dynamics simulations, enhancing ML-guided relative binding free energy calculations. I also tested and troubleshot AMBER software protocols for computational small molecule drug discovery, ensuring robust performance and accuracy by comparing results with experimental data from research partners. Before coming to CMU, I was originally from Shanghai, China and I went to high school in Melbourne, Australia.
 
 Projects
 ======
@@ -27,19 +25,21 @@ Projects
 * Developed an interactive maze navigation game, adhering to MVC architecture.
 * Utilized pathfinding algorithms such as DFS and Prim’s for maze generation, and object-oriented programming for character movement in Python.
 
-Coursework
-======
-* 15213 Computer Systems
-* 15122 Data Structures
-* 15150 Functional Programming
-* 21127 Discrete Math
-* 36225 Probability Theory
-* 67262 Database Design
-* 21241 Linear Algebra
 
 Skills and Interests
 ======
-* **Skills**: C, Python, SQL, JavaScript, HTML, CSS
+* **Programming Languages**: C, Python, SQL, JavaScript, Standard ML, HTML, CSS
 * **Technical/Software**: Git, PosgreSQL, React, Linux, Figma, Microsoft Office
 * **Languages**: English (native), Chinese (native)
-* **Interests**: Music, Violin, Cooking (?)
+* **Interests**: Music, Cooking (?)
+
+Coursework
+======
+* 15213 Computer Systems (C)
+* 15122 Data Structures (C)
+* 15150 Functional Programming (SML)
+* 21127 Discrete Math
+* 36225 Probability Theory
+* 67262 Database Design (SQL)
+* 21241 Linear Algebra
+* 15112 Fundmentals of Programming (Python)
