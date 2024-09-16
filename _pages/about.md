@@ -31,7 +31,7 @@ Skills and Interests
 * **Programming Languages**: C, Python, SQL, JavaScript, Standard ML, HTML, CSS
 * **Technical/Software**: Git, PosgreSQL, React, Linux, Figma, Microsoft Office
 * **Languages**: English (native), Chinese (native)
-* **Interests**: Music, Cooking (?)
+* **Interests**: Music, Video/Sound Engineering, Cooking (?)
 
 Coursework
 ======
