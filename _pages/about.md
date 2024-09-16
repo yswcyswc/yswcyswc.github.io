@@ -29,7 +29,7 @@ Projects
 Skills and Interests
 ======
 * **Programming Languages**: C, Python, SQL, JavaScript, Standard ML, HTML, CSS
-* **Technical/Software**: Git, PosgreSQL, React, Linux, Figma, Microsoft Office
+* **Technical/Software**: Git, PosgreSQL, React, Linux, Figma, Jupyter Notebook, Microsoft Office
 * **Languages**: English (native), Chinese (native)
 * **Interests**: Music, Video/Sound Engineering, Cooking (?)
 
