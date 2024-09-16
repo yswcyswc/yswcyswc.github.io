@@ -1,6 +1,9 @@
 ---
-title: "Boston Trip (2023 Fall Break)"
-layout: post
+title: 'Boston Trip (2023 Fall Break)'
+date: 2023-11-10
+permalink: /posts/2023/11/Boston Trip/
+tags:
+  - trips
 ---
 General information: _4 days 4 nights. Went there with 3 friends. No cars. Relied on public transport._
 
