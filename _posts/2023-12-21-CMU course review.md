@@ -1,8 +1,10 @@
 ---
-title: "CMU course reivew"
-layout: post
+title: 'CMU Course Review'
+date: 2023-12-21
+permalink: /posts/2023/12/CMU course review/
+tags:
+  - academic
 ---
-
 Offering a review on the courses I took at CMU.
 
 ! are the ones that are particularly time consuming for me.
