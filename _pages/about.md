@@ -33,22 +33,13 @@ Skills and Interests
 * **Languages**: English (native), Chinese (native)
 * **Interests**: Music, Video/Sound Engineering, Cooking (?)
 
-Education
+Relevant Coursework
 ======
-Carnegie Mellon University (Aug 2023 - current)
-  * Relevant Courses: 
-    * 15213 Computer Systems (C)
-    * 15122 Data Structures (C)
-    * 15150 Functional Programming (SML)
-    * 21127 Discrete Math
-    * 36225 Probability Theory
-    * 67262 Database Design (SQL)
-    * 21241 Linear Algebra
-    * 15112 Fundmentals of Programming (Python)
-  * Activities: Hackathon, Symphony Orchestra
-  * Grade: 3.78/4.0, Dean's List (2/2)
-Carey Baptist Grammar School (February 2019 - November 2022)
-  * Activities: Symphony Orchestra (concertmaster), Melbourne Youth Symphony Orchestra, Australian Biology Olympiad (HL)
-  * Courses: HL - MathAA, Chemistry, Biology; SL - EnglishA, Economics, ChineseB
-  * Grade: 99.80/99.95 (IB 44/45)
-  
+  * 15213 Computer Systems (C)
+  * 15122 Data Structures (C)
+  * 15150 Functional Programming (SML)
+  * 21127 Discrete Math
+  * 36225 Probability Theory
+  * 67262 Database Design (SQL)
+  * 21241 Linear Algebra
+  * 15112 Fundmentals of Programming (Python)
