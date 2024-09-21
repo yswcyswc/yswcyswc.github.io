@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "IMG_1265.png"
   name             : "Cathy Wang"
-  pronouns         : # example: "she/her"  
+  pronouns         : "she/her"  
   bio              : "Hmmm... ●ｖ●"
   location         : "Pittsburgh, PA, USA"
   employer         : "Carnegie Mellon University"
@@ -62,7 +62,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
