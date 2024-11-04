@@ -16,7 +16,7 @@ Offering a review on the courses I took at CMU.
 
 - **36226 Introduction to Probability Inference**
 
-- **21259 Calculus in 3D**
+- **21259 Calc 3**
 
 - **15150 Principles of Functional Programming** 
 
