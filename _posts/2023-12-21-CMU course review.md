@@ -12,6 +12,22 @@ Offering a review on the courses I took at CMU.
 ✰ are the ones that are particularly worth taking.
 
 ## Sophomore Year
+### Spring 2025 
+
+- **36226 Introduction to Probability Inference**
+
+- **21259 Calculus in 3D**
+
+- **15150 Principles of Functional Programming** 
+
+- **17313 Foundations of Software Engineering**
+
+- **67272 Application Design and Development** 
+
+- **99358 IDEATE: Introduction to the Unity Game Engine** 
+
+- **99355 IDEATE: Introduction to Arduino**
+
 
 ### Fall 2024 
 
@@ -19,22 +35,24 @@ Offering a review on the courses I took at CMU.
 
 - **21241 Matrices and Linear Transformation**
 
-- **15150 Principles of Functional Programming** 
+- **15150 Principles of Functional Programming**: dropped
 
 - **36200 Reasoning with Data**
 
 - **67262 Database Design and Development** 
 
 - **99367 IDEATE: Pragmatic photography** 
-
-- **99358 IDEATE: Introduction to Unity and 3D Modelling**
+  
+- **94329 Asian Strategies**
+  
+- **57337 Sound Recording**
 
 
 ## Freshman Year
 
 ### Summer 2024
 
-* **✰ 15-213 Introduction to Computer Systems**: a low-level systems class taught in C that covers concepts such as assembly language, memory models, network, and concurrent programming.  I found this class to be the most engaging CS core I've taken so far and I learnt so much from it. The labs were extremely beneficial for understanding the course content, and despite their difficulty, I enjoyed most of them. My favourite was malloc lab, which was rewarding, fun, yet so painful to debug. In order of decreasing difficulty, the labs were: Shell (conceptually hard) > Malloc Final (I died from debugging it) > Cache (Start from scratch? No) > Proxy (ahhh the first few traces) > Shark File System (thread-level parallelism was hard) > Malloc Checkpoint > Datalab > Bomb (scary) > Attack > CProgramming. The final exam was manageable and the writtens every week helped me a lot with consolidating concepts. In hindsight, the course was worth the effort and extra money paid this summer. _(I spent around 25 hours every week)_ 
+* **✰ 15-213 Introduction to Computer Systems**: a low-level systems class taught in C that covers concepts such as assembly language, memory models, network, and concurrent programming.  I found this class to be the most engaging CS core I've taken so far and I learnt so much from it. The labs were extremely beneficial for understanding the course content, and despite their difficulty, I enjoyed most of them. My favourite was malloc lab, which was rewarding, fun, yet so painful to debug. In order of decreasing difficulty, the labs were: Shell (conceptually hard) > Malloc Final (I died from debugging it) > Cache (starting from scratch was hard) > Proxy (ahhh the first few traces) > Shark File System (thread-level parallelism was hard) > Malloc Checkpoint > Datalab > Bomb (scary) > Attack > CProgramming. The final exam was manageable and the writtens every week helped me a lot with consolidating concepts. In hindsight, the course was worth the effort and extra money paid this summer. _(I spent around 25 hours every week)_ 
 
 - **99-270 Summer Undergraduate Research Apprenticeship**: I did chem research in the Kurnikova Lab on computationally driven drug discovery. I was responsible for parametrising files and running molecular dynamics simulations. This experience made me question my choice of research as I did not really enjoy it. _(I spent around 5 hours every week)_ 
 
