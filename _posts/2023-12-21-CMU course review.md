@@ -16,17 +16,13 @@ Offering a review on the courses I took at CMU.
 
 - **36226 Introduction to Probability Inference**
 
-- **21259 Calc 3**
-
 - **15150 Principles of Functional Programming** 
 
 - **17313 Foundations of Software Engineering**
 
 - **67272 Application Design and Development** 
 
-- **99358 IDEATE: Introduction to the Unity Game Engine** 
-
-- **99355 IDEATE: Introduction to Arduino**
+- **79262 Modern China: From the Birth of Mao ... to Now**
 
 
 ### Fall 2024 
