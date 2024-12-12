@@ -21,7 +21,7 @@ tags:
 更外层的目标是通过在印度洋投射力量成为安全提供者。印度通过加强和现代化海军力量，保护海上贸易路线，与印度洋周边国家签署协议，并在“Quad”框架下与全球大国合作。最外圈则反映了印度的全球抱负，即扩大在太平洋地区的影响力，努力成为享有高度战略自主权的世界大国。用原话来说，就是最终实现“expanding its network of influence in the Pacific region to become a world-leading power that enjoys a high level of strategic autonomy”。
 
 Mandala: (https://offshootbooks.com/blogs/children/what-are-mandalas)
-<img src="/images/mandala.jpg" alt="mandala" width = 500> 
+<img src="/images/mandala_img.jpg" alt="mandala" width = 500> 
 
 文章强调“战略自主权”作为印度国家战略的核心目标，其历史和文化渊源贯穿始终。例如，作者引用了 Kautilya 的《Arthashastra》中“dual policy”和“befriending the distant enemy while attacking the nearby enemy”（也就是咱们老祖宗的远交近攻）等现实政治策略，展示了印度在国家安全问题上的务实与灵活。作者认为，现代的战略自主权已超越传统的“不结盟”政策，演变成“灵活现实主义”，使印度能够“secure the most optimal strategic choices, benign security environment, and ample space for national emergence.” 在 Modi 政府时期，印度与美国等西方大国建立了更紧密的战略伙伴关系，同时通过“Quad”等机制保持与俄罗斯及不结盟国家的联系。这种灵活外交策略在印太地区错综复杂的地缘政治环境中显得尤为重要。
 
