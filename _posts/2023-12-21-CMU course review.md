@@ -43,7 +43,7 @@ Offering a review on the courses I took at CMU.
   
 - **57337 Sound Recording**: a fun music mini. The class was chill with friendly TAs and Prof Riccardo was extremely nice. The homework deadlines were super generous. _(I spent around 5 hours every week)_
 
-> Reflection: I didn't really enjoy this semester. My study motivation was extremely low and even lower after I dropped 15150, which I regret. I also submitted my resumes to quite a few companies and got rejected from all. I was not interested in any of the classes (apart from 36225 i guess?) and hated being stuck in Pittsburgh. 
+> Reflection: I didn't really enjoy this semester. My study motivation was extremely low and even lower after I dropped 15150, a decision which I regret. I also applied to quite a few companies and got rejected from all. I recall experiencing a lot of self-doubt, missing my parents and friends back home, and feeling homesick for no apparent reasons. I also procrastinated a lot in all of my assignments simply due to a lack of interest in any of the classes (apart from 36225 i guess?). I hated being stuck in Pittsburgh, the consistent rainy weathers, and the 4pm sunsets. 
 
 ## Freshman Year
 
@@ -60,7 +60,7 @@ Offering a review on the courses I took at CMU.
 - **15-122 Principles of Imperative Computation**: a cs core that exposes you to data structures. Concepts such as linked lists, stacks/queues and AVL rotations were interesting to learn, but the others not so much. The labs were okay, with the last few challenging to debug in C and the OH queues for those were around 2-3 hours long. The least enjoyable part of the course were the exams. I experienced stressful time constraints in all of the exams, and for the first exam, I remember leaving nearly 3 pages blank. When reviewing the marks I lost after the exam, I feel like most can be avoided if I just had more time. The median for all exams were in the low 70s and there were no curves for this course.
 _(I spent around 13-15 hours every week)_ 
 
-- **09-106 Modern Chemistry II**: a fairly easy chemistry core that covers thermo, kinetics, equilibrium, acids/bases... The only concept that took a while to understand was pseudo rate law, but the test questions were relatively formulaic. The weekly quizzes (sometimes twice a week) and the 8pm recitations were annoying. Overall a chill class with generous grading.
+- **09-106 Modern Chemistry II**: a fair chemistry core that covers thermo, kinetics, equilibrium, acids/bases... The only concept that took a while to understand was pseudo rate law, but the test questions were relatively formulaic. The weekly quizzes (sometimes twice a week) and the 8pm recitations were annoying. Overall a chill class with generous grading.
 _(I spent around 7 hours every week)_ 
 
 - **73-102 Principles of Microeconomics**: an introductory microeconomics class that has a heavy focus on game theory and market competition. The first 1/3 was extremely light as it overlaps with IB economics. The rest is mathy with a lot of calculations and logic. I also found the questions to be highly hypothetical and theoretical with low correlation to real world cases or economic policies, which I enjoyed learning about in high school. Therefore, I wouldn't classify it as the most engaging or easiest gen-ed, but it did not take up much time for me.
