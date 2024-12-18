@@ -43,7 +43,7 @@ Offering a review on the courses I took at CMU.
   
 - **57337 Sound Recording**: a fun music mini. The class was chill with friendly TAs and Prof Riccardo was extremely nice. The homework deadlines were super generous. _(I spent around 5 hours every week)_
 
-> Reflection: I didn't really enjoy this semester. My study motivation was extremely low and even lower after I dropped 15150, a decision which I regret. I also applied to quite a few companies and got rejected from all. I recall experiencing a lot of self-doubt, missing my parents and friends back home, and feeling homesick for no apparent reasons. I also procrastinated a lot in all of my assignments simply due to a lack of interest in any of the classes (apart from 36225 i guess?). I hated being stuck in Pittsburgh, the consistent rainy weathers, and the 4pm sunsets. 
+> Reflection: I didn't really enjoy this light semester. My study motivation was extremely low and even lower after I dropped 15150, a decision which I regret. I also applied to quite a few companies and got rejected from all. I recall experiencing a lot of self-doubt, missing my parents and friends back home, and feeling homesick for no apparent reasons. I also procrastinated a lot in all of my assignments simply due to a lack of interest in any of the classes (apart from 36225 i guess?). I hated being stuck in Pittsburgh, the consistent rainy weathers, and the 4pm sunsets. 
 
 ## Freshman Year
 
