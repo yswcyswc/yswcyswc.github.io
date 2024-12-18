@@ -31,7 +31,7 @@ Offering a review on the courses I took at CMU.
 
 - **21241 Matrices and Linear Transformation**: This class was a highly frustrating experience for me. The grading scheme is particularly problematic, as it allows no partial credit for small mistakes—a significant issue given the complexity of matrix operations. For example, a minor sign error can result in losing 20% of the exam grade. The course content felt unengaging, and the final exam consisted of 25 multiple-choice questions, which I found unrepresentative of the subject. I don’t believe this exam format effectively evaluates students' understanding of the material or their mathematical ability in linear algebra. Despite dedicating approximately 9 hours each week to studying, I felt the structure of the course hindered meaningful learning and assessment. 
 
-- **15150 Principles of Functional Programming**: dropped
+- **15150 Principles of Functional Programming**: dropped, but I did find it interesting. I felt like understanding everything in lecture but still don't know how to do the homework problems. 
 
 - **36200 Reasoning with Data**: an easy statistics class. _(I spent around 3 hours every week)_
 
