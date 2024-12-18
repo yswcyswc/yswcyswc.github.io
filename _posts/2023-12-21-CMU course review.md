@@ -27,22 +27,23 @@ Offering a review on the courses I took at CMU.
 
 ### Fall 2024 
 
-- **36225 Introduction to Probability Theory**
+- **36225 Introduction to Probability Theory**: an introductory probability class, fairly easy overall. The tests were reasonable and the lectures were pretty important since they cover a lot of proofs that help you understand the theories. _(I spent around 8 hours every week)_ 
 
-- **21241 Matrices and Linear Transformation**
+- **21241 Matrices and Linear Transformation**: This class was a highly frustrating experience for me. The grading scheme is particularly problematic, as it allows no partial credit for small mistakes—a significant issue given the complexity of matrix operations. For example, a minor sign error can result in losing 20% of the exam grade. The course content felt unengaging, and the final exam consisted of 25 multiple-choice questions, which I found unrepresentative of the subject. I don’t believe this exam format effectively evaluates students' understanding of the material or their mathematical ability in linear algebra. Despite dedicating approximately 9 hours each week to studying, I felt the structure of the course hindered meaningful learning and assessment. 
 
 - **15150 Principles of Functional Programming**: dropped
 
-- **36200 Reasoning with Data**
+- **36200 Reasoning with Data**: an easy statistics class. _(I spent around 3 hours every week)_
 
-- **67262 Database Design and Development** 
+- **67262 Database Design and Development**: a database course that starts off with data querying in SQL, and then moved on to database design, normalization, and noSQL (mongoDB). It was an okay class. _(I spent around 9 hours every week)_
 
-- **99367 IDEATE: Pragmatic photography** 
+- **99367 IDEATE: Pragmatic photography**: a photography class that teaches you the basics. Would recommend. _(I spent around 5 hours for 2 weeks)_
   
-- **94329 Asian Strategies**
+- **94329 Asian Strategies**: a fun politics/international relations mini. The class was way too fast paced with heavy readings, requiring a fair amount of commitment. But I did enjoy everything we covered. _(I spent around 6 hours every week)_
   
-- **57337 Sound Recording**
+- **57337 Sound Recording**: a fun music mini. The class was chill with friendly TAs and Prof Riccardo was extremely nice. The homework deadlines were super generous. _(I spent around 5 hours every week)_
 
+> Reflection: I didn't really enjoy this semester. My study motivation was extremely low and even lower after I dropped 15150, which I regret. I also submitted my resumes to quite a few companies and got rejected from all. I was not interested in any of the classes (apart from 36225 i guess?) and hated being stuck in Pittsburgh. 
 
 ## Freshman Year
 
