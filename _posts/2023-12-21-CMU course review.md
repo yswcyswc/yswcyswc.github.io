@@ -24,26 +24,27 @@ Offering a review on the courses I took at CMU.
 
 - **79262 Modern China: From the Birth of Mao ... to Now**
 
+> Reflection: 57 units.
 
 ### Fall 2024 
 
-- **36225 Introduction to Probability Theory**: an introductory probability class, fairly easy overall. The tests were reasonable and the lectures were pretty important since they cover a lot of proofs that help you understand the theories. _(I spent around 8 hours every week)_ 
+- **36-225 Introduction to Probability Theory**: an introductory probability class, fairly easy overall. The tests were reasonable (not the easiest though) and the lectures were pretty important since they cover a lot of proofs that help you understand the theories. I liked the professor's way of teaching, extremely efficient and straight to the point._(I spent around 8 hours every week)_ 
 
-- **21241 Matrices and Linear Transformation**: This class was a highly frustrating experience for me. The grading scheme is particularly problematic, as it allows no partial credit for small mistakes—a significant issue given the complexity of matrix operations. For example, a minor sign error can result in losing 20% of the exam grade. The course content felt unengaging, and the final exam consisted of 25 multiple-choice questions, which I found unrepresentative of the subject. I don’t believe this exam format effectively evaluates students' understanding of the material or their mathematical ability in linear algebra. Despite dedicating approximately 9 hours each week to studying, I felt the structure of the course hindered meaningful learning and assessment. 
+- **21-241 Matrices and Linear Transformation**: This class was a frustrating experience for me. The grading scheme is particularly problematic, as it allows no partial credit for small mistakes—a significant issue given the complexity of matrix operations. For example, a minor sign error can result in losing 20% of the exam grade. The course content felt unengaging, and the final exam consisted of 25 multiple-choice questions, which I found unrepresentative of the subject. I don’t believe this exam format effectively evaluates students' understanding of the material or their mathematical ability in linear algebra. For some reason, the prof refused to give any stats for exams, but I predict that the median class score is a C at the end of the semester. Despite dedicating approximately 9 hours each week to studying, I felt the structure of the course hindered meaningful learning and assessment. 
 
-- **15150 Principles of Functional Programming**: dropped, but I did find it interesting. I felt like understanding everything in lecture but still don't know how to do the homework problems. 
+- **15-150 Principles of Functional Programming**: dropped, but the content itself was interesting. The problem is I felt I understood everything in lecture but still didn't know how to do the homework problems. 
 
-- **36200 Reasoning with Data**: an easy statistics class. _(I spent around 3 hours every week)_
+- **36-200 Reasoning with Data**: an easy statistics class. _(I spent around 3 hours every week)_
 
-- **67262 Database Design and Development**: a database course that starts off with data querying in SQL, and then moved on to database design, normalization, and noSQL (mongoDB). It was an okay class. _(I spent around 9 hours every week)_
+- **67-262 Database Design and Development**: a database course that started with data querying in SQL (subqueries, windows, triggers...), and then moved on to database design (normalization, functional dependencies...), and noSQL (mongoDB). It was an ok class and Raja was a caring prof. _(I spent around 9 hours every week)_
 
-- **99367 IDEATE: Pragmatic photography**: a photography class that teaches you the basics. Would recommend. _(I spent around 5 hours for 2 weeks)_
+- **99-367 IDEATE: Pragmatic photography**: a photography class that teaches you the basics. Would recommend. _(I spent around 5 hours for 2 weeks)_
   
 - **94329 Asian Strategies**: a fun politics/international relations mini. The class was way too fast paced with heavy readings, requiring a fair amount of commitment. But I did enjoy everything we covered. _(I spent around 6 hours every week)_
   
 - **57337 Sound Recording**: a fun music mini. The class was chill with friendly TAs and Prof Riccardo was extremely nice. The homework deadlines were super generous. _(I spent around 5 hours every week)_
 
-> Reflection: I didn't really enjoy this light semester. My study motivation was extremely low and even lower after I dropped 15150, a decision which I regret. I also applied to quite a few companies and got rejected from all. I recall experiencing a lot of self-doubt, missing my parents and friends back home, and feeling homesick for no apparent reasons. I also procrastinated a lot in all of my assignments simply due to a lack of interest in any of the classes (apart from 36225 i guess?). I hated being stuck in Pittsburgh, the consistent rainy weathers, and the 4pm sunsets. 
+> Reflection: I didn't really enjoy this semester, despite its workload being light (52 units). My study motivation was extremely low and even lower after I dropped 15150, a decision which I regret. I also applied to quite a few companies and got rejected from all. I recall experiencing a lot of self-doubt, missing my parents and friends back home, and feeling homesick for no apparent reasons. I also procrastinated a lot in all of my assignments simply due to a lack of interest in any of the classes (apart from 36225 i guess?). I hated being stuck in Pittsburgh, the consistent rainy weathers, and the 4pm sunsets. 
 
 ## Freshman Year
 
