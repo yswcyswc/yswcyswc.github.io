@@ -40,7 +40,7 @@ Offering a review on the courses I took at CMU.
 
 - **99-367 IDEATE: Pragmatic photography**: a photography class that teaches you the basics. Would recommend. _(I spent around 5 hours for 2 weeks)_
   
-- **94329 Asian Strategies**: a fun politics/international relations mini. The class was way too fast paced with heavy readings, requiring a fair amount of commitment. But I did enjoy everything we covered. _(I spent around 6 hours every week)_
+- **94329 Asian Strategies**: a fun politics/international relations mini. The class was fast paced with heavy readings, requiring a fair amount of commitment. But I did enjoy everything we covered. _(I spent around 6 hours every week)_
   
 - **57337 Sound Recording**: a fun music mini. The class was chill with friendly TAs and Prof Riccardo was extremely nice. The homework deadlines were super generous. _(I spent around 5 hours every week)_
 
