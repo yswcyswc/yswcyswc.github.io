@@ -18,13 +18,13 @@ Offering a review on the courses I took at CMU.
 
 - **15150 Principles of Functional Programming** 
 
-- **17313 Foundations of Software Engineering**
+- **36315 Statistical Graphics & Visualization**
 
 - **67272 Application Design and Development** 
 
-- **79262 Modern China: From the Birth of Mao ... to Now**
+- **80100 Introduction to Philosophy**
 
-> Reflection: 57 units.
+> Reflection: 51 units.
 
 ### Fall 2024 
 
