@@ -16,15 +16,15 @@ Offering a review on the courses I took at CMU.
 
 - **36226 Introduction to Probability Inference**
 
-- **15150 Principles of Functional Programming** 
+- **21259 Calculus III** 
 
 - **36315 Statistical Graphics & Visualization**
 
 - **67272 Application Design and Development** 
 
-- **80100 Introduction to Philosophy**
+- **36350 Statistical Computing**
 
-> Reflection: 51 units.
+> Reflection: 49 units.
 
 ### Fall 2024 
 
@@ -32,7 +32,7 @@ Offering a review on the courses I took at CMU.
 
 - **21-241 Matrices and Linear Transformation**: This class was a frustrating experience for me. The grading scheme is particularly problematic, as it allows no partial credit for small mistakes—a significant issue given the complexity of matrix operations. For example, a minor sign error can result in losing 20% of the exam grade. The course content felt unengaging, and the final exam consisted of 25 multiple-choice questions, which I found unrepresentative of the subject. I don’t believe this exam format effectively evaluates students' understanding of the material or their mathematical ability in linear algebra. For some reason, the prof refused to give any stats for exams, but I predict that the median class score is a C at the end of the semester. Despite dedicating approximately 9 hours each week to studying, I felt the structure of the course hindered meaningful learning and assessment. 
 
-- **15-150 Principles of Functional Programming**: dropped, but the content itself was interesting. The problem is I felt I understood everything in lecture but still didn't know how to do the homework problems. 
+- **15-150 Principles of Functional Programming**: dropped, but the content itself was interesting. The problem is I felt I understood everything in lecture but still didn't know how to do the homework problems. The OH was not extremely helpful.
 
 - **36-200 Reasoning with Data**: an easy statistics class. _(I spent around 3 hours every week)_
 
