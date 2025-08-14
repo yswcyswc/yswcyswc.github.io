@@ -24,11 +24,11 @@ Offering a review on the courses I took at CMU.
 
 ## Sophomore Year
 ### Summer 2025
-- **15-150 Principles of Functional Programming**: I found many concepts like sequences, continuation-passing style, and higher-order functions really interesting. However, the course sometimes felt more focused on learning the SML language itself, and the emphasis on proving totality and other properties could feel slightly pedantic. The professor was fantastic; her lectures were so clear and engaging that I attended nearly every one — a first for me at CMU. Overall, it was a rewarding experience. _(I spent around 14 hours every week)_ 
+- **15-150 Principles of Functional Programming**: I found many concepts like sequences, continuation-passing style, and higher-order functions moderately interesting. I am also constantly amazed by how clean the code can be. However, the course sometimes felt more focused on learning the SML language itself, and the emphasis on proving totality and other properties could feel slightly pedantic. The professor was fantastic. Her lectures were so clear and engaging that I attended nearly every one — a first for me at CMU. Overall, it was a rewarding experience. _(I spent around 14 hours every week)_ 
 
 - **67-505 Information Systems Internship**: Had to enroll in this class only because I am an international student and need this for my cpt.
 
-> Reflection: I spent another summer in Pittsburgh, dealing with the humid weather while working a part-time internship at a local startup. Thanks to a patient and wonderful mentor, I learned a great deal about system architecture, microservices, and AWS, and I really enjoyed the company culture. Despite this, I found the day-to-day coding itself to be uninteresting. This experience led me to question my career path and reconsider my course choices for the upcoming semester.
+> Reflection: I spent another summer in Pittsburgh, dealing with the unbearable humid weather while working a part-time internship at a local startup. Thanks to a patient and wonderful mentor, I learned a great deal about system architecture, microservices, and AWS, and I really enjoyed the company culture. Despite this, I found the day-to-day coding itself to be uninteresting. This experience led me to question my career path and reconsider my course choices for the upcoming semester.
 
 ### Spring 2025 
 
@@ -36,7 +36,7 @@ Offering a review on the courses I took at CMU.
 
 - **21-259 Calculus in 3D**: covered stuff like partial differentiation, parametric surfaces and integrals, and the Green-Gauss theorem. It was relatively easy and built on my IB math background, focusing on knowing how to apply concepts rather than why they work.
 
-- **36-315 Statistical Graphics & Visualization**: this was essentially a class on creating graphs using R. I don't think I will be using some types of plots ever in the future. While it was an easy "A," the workload was slightly higher than I expected. I didn't find it particularly engaging.
+- **36-315 Statistical Graphics & Visualization**: This was essentially a class on creating graphs using R. I don't think I will be using some plots we learnt ever in the future. While it was an easy "A," the workload was slightly higher than I expected. I didn't find it particularly engaging.
 
 - **67-272 Application Design and Development**: I found the concepts in this class confusing at first and felt it could have been taught more systematically. There should be clearer instructions for assignments. I was lost for half of the lectures, and the tests were equally confusing. The course used Ruby on Rails, which felt a bit outdated and had a weird syntax. In hindsight, however, it was a useful class for getting a general overview of full-stack web application development.
 
