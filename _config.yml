@@ -21,21 +21,21 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IMG_1265.png"
+  avatar           : "profile.png"
   name             : "Cathy Wang"
   pronouns         : "she/her"  
   bio              : "Hmmm... ●ｖ●"
   location         : "Pittsburgh, PA, USA"
-  employer         : "Carnegie Mellon University"
+  employer         : ""
   uri              : # URL
-  email            : "yunshuwangcathy@gmail.com" 
+  email            : "" 
 
   # Repositories and software development
   github           : "yswcyswc"   
 
   # Social media
   instagram        : # ""
-  linkedin         : "cathy-wang-a666a4256"
+  linkedin         : "yswc"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -109,7 +109,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 

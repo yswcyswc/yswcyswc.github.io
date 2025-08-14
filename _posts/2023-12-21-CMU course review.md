@@ -1,6 +1,6 @@
 ---
 title: 'CMU Course Review'
-date: 2023-12-21
+date: 2025-8-14
 permalink: /posts/2023/12/CMU course review/
 tags:
   - academic
@@ -12,19 +12,26 @@ Offering a review on the courses I took at CMU.
 ✰ are the ones that are particularly worth taking.
 
 ## Sophomore Year
+### Summer 2025
+- **15-150 Principles of Functional Programming**: I found many concepts like sequences, continuation-passing style, and higher-order functions really interesting. However, the course sometimes felt more focused on learning the SML language itself, and the emphasis on proving totality and other properties could feel slightly pedantic. The professor was fantastic; her lectures were so clear and engaging that I attended nearly every one — a first for me at CMU. Overall, it was a rewarding experience. _(I spent around 14 hours every week)_ 
+
+- **67-505 Information Systems Internship**: Had to enroll in this class only because I am an international student and needs this for my cpt.
+
+> Reflection: I spent another summer in Pittsburgh, dealing with the humid weather while working a part-time internship at a local startup. Thanks to a patient and wonderful mentor, I learned a great deal about system architecture, microservices, and AWS, and I really enjoyed the company culture. Despite this, I found the day-to-day coding itself to be uninteresting. This experience led me to question my career path and reconsider my course choices for the upcoming semester.
+
 ### Spring 2025 
 
-- **36226 Introduction to Probability Inference**
+- **36-226 Introduction to Probability Inference**: The professor was nice and I appreciated how the course went deep into the theory behind statistical tests, which I had previously taken for granted. Some topics covered include sampling, estimation, linear regression, and hypothesis testing. A solid review of calculus concepts is recommended. The weekly 7pm recitation with mandatory recitation was not fun though and just sitting there in the classroom to work on problems was not helpful.
 
-- **21259 Calculus III** 
+- **21-259 Calculus in 3D**: covered stuff like partial differentiation, parametric surfaces and integrals, and the Green-Gauss theorem. It was relatively easy and built on my IB math background, focusing on knowing how to apply concepts rather than why they work.
 
-- **36315 Statistical Graphics & Visualization**
+- **36-315 Statistical Graphics & Visualization**: this was essentially a class on creating graphs using R. I don't think I will be using some types of plots ever in the future. While it was an easy "A," the workload was slightly higher than I expected. I didn't find it particularly engaging.
 
-- **67272 Application Design and Development** 
+- **67-272 Application Design and Development**: I found the concepts in this class confusing at first and felt it could have been taught more systematically. There should be clearer instructions for assignments. I was lost for half of the lectures, and the tests were equally confusing. The course used Ruby on Rails, which felt a bit outdated and had a weird syntax. In hindsight, however, it was a useful class for getting a general overview of full-stack web application development.
 
-- **36350 Statistical Computing**
+- **36-350 Statistical Computing**: I didn't find the course content interesting. It was a class on using R for data analysis, and I often felt like I was doing the weekly assignments just for the sake of getting them done. Overall, however, it wasn't a difficult course.
 
-> Reflection: 49 units.
+> Reflection: 49 units. I suffered an injury this semester and had surgical procedures throughout, so I chose classes that didn't require strict attendance. I started the semester thinking I wanted to pursue an additional major in Statistics and Machine Learning, but the stats classes I took were all uninteresting to me. They seemed to be courses where I learned how to solve a problem without understanding why the method worked. At times, it felt like the work could be done by AI, as it was often just a matter of learning syntax. This experience made me question my choice of major again.
 
 ### Fall 2024 
 
