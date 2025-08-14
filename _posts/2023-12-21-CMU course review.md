@@ -28,7 +28,7 @@ Offering a review on the courses I took at CMU.
 
 - **67-505 Information Systems Internship**: Had to enroll in this class only because I am an international student and need this for my cpt.
 
-> Reflection: I spent another summer in Pittsburgh, dealing with the unbearable humid weather while working a part-time internship at a local startup. Thanks to a patient and wonderful mentor, I learned a great deal about system architecture, microservices, and AWS, and I really enjoyed the company culture. Despite this, I found the day-to-day coding itself to be uninteresting. This experience led me to question my career path and reconsider my course choices for the upcoming semester.
+> Reflection: I spent another summer in Pittsburgh, dealing with the unbearable humid weather while working as a software engineer intern at a local startup. I am incredibly grateful for this opportunity to step into the industry. Thanks to a patient and wonderful mentor, I learned a great deal about system architecture, microservices, and AWS, and I really enjoyed the company culture. Despite this, I found the day-to-day coding itself to be uninteresting. This experience led me to question my career path and reconsider my course choices for the upcoming semester.
 
 ### Spring 2025 
 
