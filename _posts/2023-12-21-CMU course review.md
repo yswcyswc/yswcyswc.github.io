@@ -10,6 +10,17 @@ Offering a review on the courses I took at CMU.
 ! are the ones that are particularly time consuming for me.
 
 ✰ are the ones that are particularly worth taking.
+## Junior Year
+### Fall 2025
+- **15-210 Parallel and Sequential Algorithms**
+
+- **16-385 Computer Vision**
+
+- **36-401 Modern Regression**
+
+- **05-391 Designing Human-Centered Software**
+
+- **80-100 Introduction to Philosophy**
 
 ## Sophomore Year
 ### Summer 2025
