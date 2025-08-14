@@ -24,7 +24,7 @@ Offering a review on the courses I took at CMU.
 
 ## Sophomore Year
 ### Summer 2025
-- **15-150 Principles of Functional Programming**: I found many concepts like sequences, continuation-passing style, and higher-order functions moderately interesting. I am also constantly amazed by how clean the code can be. However, the course sometimes felt more focused on learning the SML language itself, and the emphasis on proving totality and other properties could feel slightly pedantic. The professor was fantastic. Her lectures were so clear and engaging that I attended nearly every one — a first for me at CMU. Overall, it was a rewarding experience. _(I spent around 14 hours every week)_ 
+- **15-150 Principles of Functional Programming**: I found many concepts like sequences, continuation-passing style, and higher-order functions moderately interesting. I was also constantly amazed by how clean the code can be. However, the course sometimes felt more focused on learning the SML language itself, and the emphasis on proving totality and other properties could feel slightly pedantic. The professor was fantastic. Her lectures were so clear and engaging that I attended nearly every one — a first for me at CMU. Overall, it was a rewarding experience. _(I spent around 14 hours every week)_ 
 
 - **67-505 Information Systems Internship**: Had to enroll in this class only because I am an international student and need this for my cpt.
 
