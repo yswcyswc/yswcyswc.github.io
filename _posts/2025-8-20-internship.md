@@ -46,7 +46,7 @@ I also built a webhook consumer Lambda that subscribes to SendGrid events (deliv
 
 ### Example Message Payload
 
-```json
+```python
 {
   "to": ["recipient@example.com"],
   "event_id": "welcome_email",
@@ -57,6 +57,7 @@ I also built a webhook consumer Lambda that subscribes to SendGrid events (deliv
     "referrer_name": "Erin McSloth"
   }
 }
+```
 
 This envelope standardizes all email events, making the pipeline predictable and easier to maintain.
 
@@ -66,11 +67,11 @@ Some design elements are shown below:
   <img src="/assets/images/erin.png" alt="System Architecture Diagram" width="50%"/>
 </p>
 
-Please note that this diagram is only a snippet of the overall system since I cannot share full details of ERIN’s internal architecture. If you are interested in learning more about my project, feel free to reach out to me directly at **cathyw [at] cmu [dot] andrew [dot] com**.
+Please note that this diagram is only a snippet of the overall system since I cannot share full details of ERIN’s internal architecture. If you are interested in learning more about my project, feel free to reach out to me directly at cathyw [at] andrew [dot] cmu [dot] com.
 
 ### Results and Deliverables
 
-By the end of the summer, the system had transformed from dozens of brittle Lambdas into a **cohesive notification service**. Key outcomes included:
+By the end of the summer, the system had transformed from dozens of brittle Lambdas into a cohesive notification service. Key outcomes included:
 
 - **Code consolidation:** many redundant functions collapsed into just a handful of category-based handlers.  
 - **Template clarity:** all email content lives in SendGrid, editable without touching Lambda code.  
