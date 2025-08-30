@@ -67,7 +67,7 @@ Some design elements are shown below:
   <img src="/assets/images/erin.png" alt="System Architecture Diagram" width="50%"/>
 </p>
 
-Please note that this diagram is only a snippet of the overall system since I cannot share full details of ERIN’s internal architecture. If you are interested in learning more about my project, feel free to reach out to me directly at cathyw [at] andrew [dot] cmu [dot] com.
+Please note that this diagram is only a snippet of the overall system since I cannot share full details of ERIN’s internal architecture. If you are interested in learning more about my project, feel free to reach out to me directly via email.
 
 ### Results and Deliverables
 
