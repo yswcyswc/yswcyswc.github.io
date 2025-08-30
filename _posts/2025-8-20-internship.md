@@ -1,15 +1,14 @@
 ---
-title: 'Internship at ERIN (Summer 2025)'
+title: 'Internship at ERIN Technologies (Summer 2025)'
 date: 2025-08-20
 permalink: /posts/2025/8/erininternship/
 tags:
   - academic
 ---
 
-## Internship at ERIN Technologies  
 **Email Platform Modernization**
 
-This summer I spent twelve weeks as a Software Engineering Intern at **ERIN Technologies**, a referral-driven recruiting startup. My work centered on redesigning and implementing the company’s email notification system. What began as a fragmented collection of AWS Lambda functions turned into a consolidated, event-driven service capable of handling translation into eighteen languages, supporting multiple companies with custom branding, and providing much clearer visibility into delivery and engagement.
+This summer I spent 12 weeks as a Software Engineering Intern at ERIN Technologies, a referral-driven recruiting startup in Pittsburgh. My work centered on redesigning and implementing the company’s email notification system. What began as a fragmented collection of AWS Lambda functions turned into a consolidated, event-driven service capable of handling translation into eighteen languages, supporting multiple companies with custom branding, and providing much clearer visibility into delivery and engagement.
 
 ---
 
@@ -66,7 +65,6 @@ Some design elements are shown below:
 <p align="center">
   <img src="/assets/images/erin.png" alt="System Architecture Diagram" width="50%"/>
 </p>
----
 
 Please note that this diagram is only a snippet of the overall system since I cannot share full details of ERIN’s internal architecture. If you are interested in learning more about my project, feel free to reach out to me directly at **cathyw [at] cmu [dot] andrew [dot] com**.
 
