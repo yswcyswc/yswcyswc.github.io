@@ -100,7 +100,4 @@ On a personal note, I came away from this internship with a deeper appreciation 
 - **Tech Stack:** AWS Lambda, SNS, SQS, DynamoDB, TypeScript, AWS SAM, SendGrid  
 - **Skills:** System design, serverless architecture, internationalization, logging and observability, cross-team collaboration  
 
----
-
-This internship was both technically challenging and personally rewarding. I am grateful to ERIN for the opportunity to contribute, and to my mentors for guiding me through an experience that has shaped how I think about scalable systems and the craft of software engineering.
 
