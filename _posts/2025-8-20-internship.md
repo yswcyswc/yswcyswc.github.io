@@ -35,13 +35,6 @@ I designed the new platform as an **event-driven pipeline** using AWS SNS and SQ
 
 Downstream handlers consume these messages, fetch the correct SendGrid template, merge in the variables, and send the email. This design made the pipeline modular and easy to extend.  
 
-To support translation and branding, I introduced two DynamoDB tables:
-
-- **EmailContentTable** stores translated strings, keyed by company, language, and content key.  
-- **EmailConfigTable** stores per-company mappings from event type to template ID, along with enable/disable flags and branding options.  
-
-I also built a webhook consumer Lambda that subscribes to SendGrid events (delivered, dropped, bounced, blocked, opened). These logs are written back into DynamoDB so support staff and administrators have visibility into every notification.
-
 ---
 
 ### Example Message Payload
@@ -50,7 +43,7 @@ I also built a webhook consumer Lambda that subscribes to SendGrid events (deliv
 {
   "to": ["recipient@example.com"],
   "event_id": "welcome_email",
-  "company_id": "f683e9ae-99a7-4fba-84ad-07547b9491d6",
+  "company_id": "...",
   "language_code": "en",
   "variables": {
     "job_name": "Software Engineer",
@@ -58,8 +51,33 @@ I also built a webhook consumer Lambda that subscribes to SendGrid events (deliv
   }
 }
 ```
+The redesign centered on turning notifications into first-class events in an event-driven pipeline:
 
-This envelope standardizes all email events, making the pipeline predictable and easier to maintain.
+- Contract-first events: every notification adheres to a strict contract containing recipient list, event type, company ID, language code, and template variables. This contract is versioned, so downstream consumers can evolve without breaking producers.  
+- Publish–subscribe decoupling: producers only publish events to an SNS topic; they never touch template logic or delivery mechanisms. Consumers (Lambdas) subscribe via SQS queues, enforcing isolation and backpressure.  
+- Handler specialization: instead of one Lambda per event, a handful of category-based handlers resolve event type → template mapping, merge variables, and dispatch through SendGrid.  
+
+#### Scaling and reliability
+
+- Queue buffering: SQS provides durable storage and throttling. A spike of thousands of job alerts is absorbed without overwhelming SendGrid.  
+- Dead-letter queues: mis-formed events or downstream failures are captured automatically for debugging.  
+- Idempotency safeguards: handlers ensure reprocessed messages (from retries) do not double-send emails.  
+- Deployment strategy: I packaged infrastructure with AWS SAM, enabling repeatable deployments across dev, staging, and prod environments. Environment isolation was critical to avoid accidental production sends during testing.  
+
+#### Observability and feedback
+
+- Webhook ingestion: a consumer Lambda subscribes to SendGrid’s event webhooks (delivered, bounced, opened, blocked). These events are logged for every email.  
+- End-to-end traceability: support staff can query the lifecycle of a single notification across queues, handlers, and delivery outcomes.  
+- Metrics hooks: success/failure counts and latency distributions are exported for reporting and anomaly detection.  
+- Error monitoring: integration with Sentry captures stack traces and contextual metadata from failing Lambdas, allowing rapid debugging and root cause analysis across environments.
+
+
+#### Internationalization and branding
+
+- Translation keys: messages use variable substitution driven by a centralized translation layer, enabling consistent rendering across eighteen languages.  
+- Branding metadata: per-company configs define template mappings, colors, and opt-in/out flags. Companies can reconfigure notifications without redeploying code.  
+- Extensibility: this design makes it trivial to add push or web notifications; they consume the same contract and diverge only in the rendering layer.  
+
 
 Some design elements are shown below:
 
@@ -67,7 +85,7 @@ Some design elements are shown below:
   <img src="/assets/images/erin.png" alt="System Architecture Diagram" width="50%"/>
 </p>
 
-Please note that this diagram is only a snippet of the overall system since I cannot share full details of ERIN’s internal architecture. If you are interested in learning more about my project, feel free to reach out to me directly via email.
+Please note that this diagram is only a simplified snippet of the overall system. In accordance with my NDA, I cannot share any details of ERIN’s internal architecture. The illustration is intended to convey the general design approach rather than the exact production implementation.
 
 ### Results and Deliverables
 
