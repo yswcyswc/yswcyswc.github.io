@@ -52,7 +52,7 @@ The goal is to understand how attacks propagate and how different defensive stra
 From an engineering perspective, this involves building simulation infrastructure, implementing agent behavior models, and integrating knowledge bases such as MITRE ATT&CK.
 
 ## Projects
-See my projects **[here](\projects.md)**
+See my projects **[here](https://yswcyswc.github.io/projects/)**
 
 ## Technical Background
 
