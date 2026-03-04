@@ -62,9 +62,9 @@ On the systems side, I’ve studied topics such as computer systems, algorithms,
 
 That combination shapes how I approach engineering problems: balancing correctness, performance, and practical constraints.
 
-## Misc
+<!-- ## Misc
 
-I am an **Australian citizen**, so I have full working rights in Australia. I am happy to relocate to anywhere in Australia. I also have a multicultural background. I spent 11 years living in China (Shanghai) and 10 years living in Australia (Melbourne) / USA (Pittsburgh), so I am fluent in both English and Chinese (Mandarin).
+I am an **Australian citizen**, so I have full working rights in Australia. I am happy to relocate to anywhere in Australia. I also have a multicultural background. I spent 11 years living in China (Shanghai) and 10 years living in Australia (Melbourne) / USA (Pittsburgh), so I am fluent in both English and Chinese (Mandarin). -->
 
 ## Outside of Engineering
 
