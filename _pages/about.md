@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-## Hi — I like building systems that actually run in the real world.
+## Hi!
 
-I’m a third‑year **Information Systems and Artificial Intelligence undergraduate at Carnegie Mellon University**. Most of my work sits at the intersection of **software engineering, systems, and applied machine learning**.
+I’m a third‑year Information Systems and Artificial Intelligence undergraduate at Carnegie Mellon University. Most of my work sits at the intersection of software engineering, systems, and applied machine learning.
 
-What I enjoy most is understanding how things behave *under the hood*. That could mean debugging a backend service, designing a simulation model, or figuring out why a system behaves differently at scale than it does in a test environment.
+What I enjoy most is understanding how things behave under the hood. That could mean debugging a backend service, designing a simulation model, or figuring out why a system behaves differently at scale than it does in a test environment.
 
 I’m especially interested in:
 
@@ -36,7 +36,7 @@ What I enjoyed most about that experience was working with real production syste
 
 I also work with the **CASOS Center at Carnegie Mellon** on cybersecurity simulation research.
 
-One of the projects I’ve worked on models **watering hole attacks** using agent‑based simulation.
+One of the projects I’ve worked on models watering hole attacks using agent‑based simulation.
 
 In a watering hole attack, an attacker compromises a website that employees of a target organization frequently visit. When those employees access the site, malware is delivered and can spread through the organization’s network.
 
@@ -52,19 +52,19 @@ The goal is to understand how attacks propagate and how different defensive stra
 From an engineering perspective, this involves building simulation infrastructure, implementing agent behavior models, and integrating knowledge bases such as MITRE ATT&CK.
 
 ## Projects
-See my projects **[here](https://yswcyswc.github.io/projects/)**
+See my projects **[here](https://yswcyswc.github.io/projects/)**!
 
 ## Technical Background
 
 My coursework combines systems engineering with quantitative modeling.
 
-On the systems side, I’ve studied topics such as computer systems, algorithms, databases, and robotics planning. On the quantitative side, I’ve taken courses in probability, statistical inference, regression, computer vision, and machine learning.
+On the systems side, I’ve studied topics such as computer systems, algorithms, databases, and robotics planning. On the quantitative side, I’ve taken courses in probability, statistical inference, regression, computer vision, and machine learning. I'm also a Teaching Assistant at CMU for probability and statistical inference and I really enjoyed working with students and helping them to learn!
 
 That combination shapes how I approach engineering problems: balancing correctness, performance, and practical constraints.
 
 ## Misc
 
-I am an **Australian citizen**, so I have full working rights in Australia. I am happy to relocate anywhere in Australia. I spent 11 years living in China (Shanghai) and 10 years living in Australia (Melbourne)/USA (Pittsburgh), so I am fluent in both English and Chinese (Mandarin).
+I am an **Australian citizen**, so I have full working rights in Australia. I am happy to relocate to anywhere in Australia. I also have a multicultural background. I spent 11 years living in China (Shanghai) and 10 years living in Australia (Melbourne) / USA (Pittsburgh), so I am fluent in both English and Chinese (Mandarin).
 
 ## Outside of Engineering
 
