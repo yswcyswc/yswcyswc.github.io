@@ -8,7 +8,9 @@ tags:
 
 **Email Platform Modernization**
 
-This summer I spent 12 weeks as a Software Engineering Intern at ERIN Technologies, a referral-driven recruiting startup in Pittsburgh. My work centered on redesigning and implementing the company’s email notification system. What began as a fragmented collection of AWS Lambda functions turned into a consolidated, event-driven service capable of handling translation into eighteen languages, supporting multiple companies with custom branding, and providing much clearer visibility into delivery and engagement.
+This summer I spent 12 weeks as a Software Engineering Intern at ERIN Technologies, a referral-driven recruiting startup in Pittsburgh. Since I am not allowed to share any code and specifics, I will give a description of the project, and include some of my thought processes. 
+
+My work centered on redesigning and implementing the company’s email notification system. What began as a fragmented collection of AWS Lambda functions turned into a consolidated, event-driven service capable of handling translation into eighteen languages, supporting multiple companies with custom branding, and providing much clearer visibility into delivery and engagement.
 
 ---
 

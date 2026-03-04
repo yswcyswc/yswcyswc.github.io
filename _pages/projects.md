@@ -3,6 +3,10 @@ permalink: /projects/
 title: "Projects"
 author_profile: true
 ---
+### [Email Notification Service (ERIN)](https://yswcyswc.github.io/posts/2025/8/erininternship/)
+**Node.js, AWS Lambda, DynamoDB, SendGrid**
+
+Developed a serverless email notification system for a referral platform using event-driven AWS Lambda processors. Refactored legacy email workflows into modular processors with SendGrid templates, dynamic content rendering, and multi-language support.
 
 ### [Scalable Robot–Target Interception Planner](https://github.com/yswcyswc/Scalable-Robot-Target-Interception-Planner)
 **C++**
