@@ -6,7 +6,8 @@ permalink: /posts/2024/8/icsproject/
 tags:
   - academic
 ---
-## Academic Integrity Note (Read First)
+
+### Academic Integrity Note (Read First)
 
 This post describes *design decisions and allocator mechanics* from my 15-213 (Introduction to Computer Systems) malloc lab.  
 By course academic integrity policy, I cannot share the full project source, benchmarks, traces, or any submission-ready implementation.  
