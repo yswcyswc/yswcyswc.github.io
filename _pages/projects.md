@@ -22,7 +22,7 @@ Developed a full-stack order management application with a Rails backend and Rea
 
 ---
 
-### High-DoF Robotic Arm Motion Planning
+### [High-DoF Robotic Arm Motion Planning](https://github.com/yswcyswc/Sampling-Based-Planning-in-Manipulator-Configuration-Space)
 **C++**
 
 Implemented sampling-based motion planning algorithms (**RRT-Connect and PRM**) to generate collision-free trajectories for a high-degree-of-freedom planar robotic arm. Benchmarked planning time, path cost, and success rate across randomized start–goal configurations under a **<5 second planning constraint**.
