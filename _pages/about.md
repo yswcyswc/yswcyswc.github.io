@@ -34,11 +34,11 @@ What I enjoyed most about that experience was working with real production syste
 
 ## Research: Cybersecurity Simulation and Detection (CASOS Lab)
 
-I work with the **CASOS Center at Carnegie Mellon University** on research combining cybersecurity analytics, machine learning, and agent-based simulation.
+I work with the CASOS Center at Carnegie Mellon University on research combining cybersecurity analytics, machine learning, and agent-based simulation.
 
-One stream of the work focuses on **machine learning–based classification of cyber attacks using network telemetry**. Using features derived from network traffic signals (e.g., flow statistics, protocol usage patterns, connection timing, and packet-level indicators from NetFlow or Zeek logs), we train **multilayer perceptron (MLP) models** to classify activity according to MITRE ATT&CK tactics and techniques. The objective is to automatically map observed traffic behaviors to attacker activities such as command-and-control communication, lateral movement, or data exfiltration. The models learn high-dimensional representations of network behavior and allow rapid classification of attack patterns within simulated or real traffic streams.
+One stream of the work focuses on machine learning–based classification of cyber attacks (from the MITRE ATT&CK framework) using network telemetry and intrusion metrics. Using features derived from network traffic signals (e.g., flow statistics, protocol usage patterns, connection timing, and packet-level indicators from NetFlow or Zeek logs), we train multilayer perceptron (MLP) models to classify activity according to MITRE ATT&CK tactics and techniques. The objective is to automatically map observed traffic behaviors to attacker activities such as command-and-control communication, lateral movement, or data exfiltration. The models learn high-dimensional representations of network behavior and allow rapid classification of attack patterns within simulated or real traffic streams.
 
-A second component of the research examines **insider threat dynamics through network analysis and agent-based modeling**. In this work we construct simulations where organizational users, defenders, and adversaries are modeled as interacting agents operating over enterprise network topologies. The environment captures factors such as:
+A second component of the research examines insider threat dynamics through network analysis and agent-based modeling. In this work we construct simulations where organizational users, defenders, and adversaries are modeled as interacting agents operating over enterprise network topologies. The environment captures factors such as:
 
 - attacker strategy selection and escalation pathways  
 - defender monitoring, response latency, and resource constraints  
