@@ -9,7 +9,7 @@ redirect_from:
 
 ## Hi!
 
-I’m a third‑year Information Systems and Artificial Intelligence undergraduate at Carnegie Mellon University. Most of my work sits at the intersection of software engineering, systems, and applied machine learning.
+I’m a third‑year Information Systems and Artificial Intelligence undergraduate at Carnegie Mellon University. Most of my work sits at the intersection of software engineering, applied machine learning, and systems.
 
 What I enjoy most is understanding how things behave under the hood. That could mean debugging a backend service, designing a simulation model, or figuring out why a system behaves differently at scale than it does in a test environment.
 
@@ -32,24 +32,22 @@ My work there involved modernizing parts of the company’s backend architecture
 What I enjoyed most about that experience was working with real production systems. Writing code that people depend on daily changes how you think about engineering. Stability, maintainability, and clear architecture become just as important as shipping features.
 
 
-## Research: Cybersecurity Simulation (CASOS Lab)
+## Research: Cybersecurity Simulation and Detection (CASOS Lab)
 
-I also work with the **CASOS Center at Carnegie Mellon** on cybersecurity simulation research.
+I work with the **CASOS Center at Carnegie Mellon University** on research combining cybersecurity analytics, machine learning, and agent-based simulation.
 
-One of the projects I’ve worked on models watering hole attacks using agent‑based simulation.
+One stream of the work focuses on **machine learning–based classification of cyber attacks using network telemetry**. Using features derived from network traffic signals (e.g., flow statistics, protocol usage patterns, connection timing, and packet-level indicators from NetFlow or Zeek logs), we train **multilayer perceptron (MLP) models** to classify activity according to MITRE ATT&CK tactics and techniques. The objective is to automatically map observed traffic behaviors to attacker activities such as command-and-control communication, lateral movement, or data exfiltration. The models learn high-dimensional representations of network behavior and allow rapid classification of attack patterns within simulated or real traffic streams.
 
-In a watering hole attack, an attacker compromises a website that employees of a target organization frequently visit. When those employees access the site, malware is delivered and can spread through the organization’s network.
+A second component of the research examines **insider threat dynamics through network analysis and agent-based modeling**. In this work we construct simulations where organizational users, defenders, and adversaries are modeled as interacting agents operating over enterprise network topologies. The environment captures factors such as:
 
-Our simulation environment models things like:
+- attacker strategy selection and escalation pathways  
+- defender monitoring, response latency, and resource constraints  
+- employee communication and file-sharing networks  
+- privilege structures and access relationships within the organization  
 
-- attacker behavior  
-- defender response strategies  
-- user browsing patterns  
-- organizational network structure  
+Network analysis techniques are used to model how compromised users or malicious insiders propagate influence or access across the system. The agent-based simulations then evaluate how different defensive strategies—such as anomaly detection thresholds, monitoring placement, or access-control policies—affect attack propagation, system resilience, and recovery time.
 
-The goal is to understand how attacks propagate and how different defensive strategies affect system resilience.
-
-From an engineering perspective, this involves building simulation infrastructure, implementing agent behavior models, and integrating knowledge bases such as MITRE ATT&CK.
+From an engineering perspective, this work involves implementing simulation infrastructure, designing feature pipelines for network telemetry, training neural network classifiers for ATT&CK technique identification, and integrating structured threat knowledge bases such as MITRE ATT&CK and MITRE D3FEND into the experimental environment.
 
 ## Projects
 See my projects **[here](https://yswcyswc.github.io/projects/)**!
