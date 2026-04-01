@@ -32,7 +32,7 @@ My work there involved modernizing parts of the company’s backend architecture
 What I enjoyed most about that experience was working with real production systems. Writing code that people depend on daily changes how you think about engineering. Stability, maintainability, and clear architecture become just as important as shipping features.
 
 
-## Research: Cybersecurity Simulation and Detection (CASOS Lab)
+<!-- ## Research: Cybersecurity Simulation and Detection (CASOS Lab)
 
 I work with the CASOS Center at Carnegie Mellon University on research combining cybersecurity analytics, machine learning, and agent-based simulation.
 
@@ -47,7 +47,7 @@ A second component of the research examines insider threat dynamics through netw
 
 Network analysis techniques are used to model how compromised users or malicious insiders propagate influence or access across the system. The agent-based simulations then evaluate how different defensive strategies—such as anomaly detection thresholds, monitoring placement, or access-control policies—affect attack propagation, system resilience, and recovery time.
 
-From an engineering perspective, this work involves implementing simulation infrastructure, designing feature pipelines for network telemetry, training neural network classifiers for ATT&CK technique identification, and integrating structured threat knowledge bases such as MITRE ATT&CK and MITRE D3FEND into the experimental environment.
+From an engineering perspective, this work involves implementing simulation infrastructure, designing feature pipelines for network telemetry, training neural network classifiers for ATT&CK technique identification, and integrating structured threat knowledge bases such as MITRE ATT&CK and MITRE D3FEND into the experimental environment. -->
 
 ## Projects
 See my projects **[here](https://yswcyswc.github.io/projects/)**!
