@@ -1,4 +1,26 @@
 {% include base_path %}
+{% if page.layout == "archive" and page.archive_lang == "zh" %}
+  {% assign en_switch_url = page.en_url | default: "/year-archive/" %}
+  {% assign zh_switch_url = page.url %}
+{% elsif page.layout == "archive" and page.archive_lang == "en" %}
+  {% assign en_switch_url = page.url %}
+  {% assign zh_switch_url = page.zh_url | default: "/zh/year-archive/" %}
+{% elsif page.collection == "posts" and page.lang == "zh" %}
+  {% assign en_switch_url = page.en_url | default: "/year-archive/" %}
+  {% assign zh_switch_url = page.url %}
+{% elsif page.collection == "posts" %}
+  {% assign en_switch_url = page.url %}
+  {% assign zh_switch_url = page.zh_url | default: "/zh/year-archive/" %}
+{% else %}
+  {% assign en_switch_url = page.en_url | default: "/" %}
+  {% assign zh_switch_url = page.zh_url | default: "/zh/" %}
+{% endif %}
+
+{% if page.lang == "zh" %}
+  {% assign nav_key = "main_zh" %}
+{% else %}
+  {% assign nav_key = "main" %}
+{% endif %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -7,15 +29,20 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
+          {% for link in site.data.navigation[nav_key] %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
+        <div class="masthead__lang-switch">
+          <a class="masthead__lang {% unless page.lang == 'zh' %}is-active{% endunless %}" href="{{ base_path }}{{ en_switch_url }}">EN</a>
+          <span class="masthead__lang-separator">/</span>
+          <a class="masthead__lang {% if page.lang == 'zh' %}is-active{% endif %}" href="{{ base_path }}{{ zh_switch_url }}">&#20013;&#25991;</a>
+        </div>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>

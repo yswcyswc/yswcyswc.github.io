@@ -2,6 +2,8 @@
 permalink: /
 title: "About"
 author_profile: true
+lang: en
+zh_url: /zh/
 redirect_from: 
   - /about/
   - /about.html
@@ -87,6 +89,5 @@ I enjoy:
     allowfullscreen>
   </iframe>
 </div>
-
 
 

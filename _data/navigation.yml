@@ -27,3 +27,13 @@ main:
     
   #- title: "Guide"
   #  url: /markdown/
+
+main_zh:
+  - title: "博客"
+    url: /zh/year-archive/
+
+  - title: "关于"
+    url: /zh/
+
+  - title: "项目"
+    url: /zh/projects/
