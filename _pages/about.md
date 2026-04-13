@@ -20,7 +20,7 @@ I’m especially interested in:
 - data‑driven applications  
 - simulation and security research  
 
-In general, I enjoy projects where software interacts with real constraints — performance limits, messy data, or complex real‑world systems.
+In general, I enjoy projects where software interacts with real constraints such as performance limits or complex real‑world systems.
 
 
 ## Software Engineering Experience
@@ -75,7 +75,18 @@ I enjoy:
 - recording music  
 - playing music! (I play the violin in bands and orchestras)
 
-Audio work has a surprisingly similar mindset to software engineering. Small adjustments can completely change the outcome, and careful attention to detail matters.
+<div style="margin-top: 1rem;">
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/8n6p4zF8KMU"
+    title="Franck's Violin Sonata on YouTube"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
 
 
 
