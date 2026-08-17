@@ -1,0 +1,809 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Planning Motion for a High DoF Robotic Arm - Cathy Wang</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Cathy Wang">
+<meta property="og:title" content="Planning Motion for a High DoF Robotic Arm">
+
+
+  <link rel="canonical" href="https://yswcyswc.github.io/posts/2026/4/high-dof-arm-planning/">
+  <meta property="og:url" content="https://yswcyswc.github.io/posts/2026/4/high-dof-arm-planning/">
+
+
+
+  <meta property="og:description" content="Planning motion beyond three dimensions.">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2026-04-05T00:00:00-07:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Cathy Wang",
+      "url" : "https://yswcyswc.github.io",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://yswcyswc.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Cathy Wang Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://yswcyswc.github.io/assets/css/main.css?v=1786947391">
+
+<meta http-equiv="cleartype" content="on">
+
+    
+
+<!-- start custom head snippets -->
+
+<link rel="mask-icon" href="https://yswcyswc.github.io/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="https://yswcyswc.github.io/images/favicon.ico?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://yswcyswc.github.io/assets/css/academicons.css"/>
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button class="hidden" aria-hidden="true" tabindex="-1"><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://yswcyswc.github.io/">Cathy Wang</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://yswcyswc.github.io/about/">About</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://yswcyswc.github.io/projects/">Projects</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://yswcyswc.github.io/year-archive/">Blog</a></li>
+          
+            
+            <li class="masthead__menu-item masthead__menu-item--misc"><a href="https://yswcyswc.github.io/misc/">Misc · 杂🫘</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="https://yswcyswc.github.io/images/profile.jpg" class="author__avatar" alt="Cathy Wang">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Cathy Wang</h3>
+    <p class="author__pronouns">she/her</p>
+    <p class="author__bio">●ｖ●</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Pittsburgh, PA, USA</li>
+      
+      
+      
+      
+        <li><a href="mailto:"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+            
+      
+      
+      
+      
+                              
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+            
+            
+      
+        <li><a href="https://github.com/yswcyswc"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+      
+        <li><a href="https://www.linkedin.com/in/yswc"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+            
+      
+            
+                  
+            
+      
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Planning Motion for a High DoF Robotic Arm">
+    <meta itemprop="description" content="Planning motion beyond three dimensions.">
+    <meta itemprop="datePublished" content="April 05, 2026">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Planning Motion for a High DoF Robotic Arm
+</h1>
+          
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+  
+  
+  6 minute read
+
+</p>
+          
+        
+        
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2026-04-05T00:00:00-07:00">April 05, 2026</time></p>
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p><a href="https://github.com/yswcyswc/Sampling-Based-Planning-in-Manipulator-Configuration-Space" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:0.55rem;margin:0 0 1.5rem;padding:0.6rem 0.85rem;border:1px solid #d0d7de;border-radius:8px;color:inherit;text-decoration:none;font-size:0.9rem;font-weight:600;"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" style="fill:currentColor;flex:none;"><path d="M12 .7C5.7.7.7 5.8.7 12.2c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.7.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6 4.6-1.5 7.8-5.8 7.8-10.9C23.3 5.8 18.3.7 12 .7z" /></svg><span>View the code on GitHub</span></a></p>
+
+<p>At first, this looked like a pathfinding problem with a more complicated object. There is a start pose, a goal pose, and a map with obstacles; surely I just needed to move the arm from one to the other. That intuition lasted until I tried to think about what a “position” meant for an arm with several joints.</p>
+
+<p>The planner does not search over the pixels occupied by the arm. It searches over <strong>configurations</strong>: one angle for every joint. A point in this space is an entire pose of the arm, and a path is a sequence of poses that can be played back as continuous motion. Adding one joint adds another dimension to the search space, so the problem becomes difficult surprisingly quickly.</p>
+
+<p align="center">
+  <img src="/assets/images/dofarms.png" alt="A high degree of freedom robotic arm moving through an obstacle map" style="display:block;width:60%;margin:0 auto;" />
+</p>
+
+<h2 id="what-i-built">What I built</h2>
+
+<p>I implemented four sampling based planners in C++: RRT, RRT Connect, RRT*, and PRM. Each samples valid arm poses instead of discretizing the full configuration space.</p>
+
+<h2 id="how-the-planners-work">How the planners work</h2>
+
+<p>All four planners operate on a configuration q = [θ₁, θ₂, …, θₙ], where each value is one joint angle. The distance between two configurations is the Euclidean distance between their angle vectors. When a planner proposes an edge from qₐ to qᵦ, I interpolate between those vectors and reject the entire edge if any intermediate arm pose is in collision.</p>
+
+<p>The planners share the same edge validation routine:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>VALID_EDGE(q_a, q_b)
+    delta ← max_i |q_a[i] minus q_b[i]|
+    steps ← max(2, ceil(delta / (pi / 90)))
+
+    for k ← 0 to steps do
+        t ← k / steps
+        q ← (1 minus t)q_a + tq_b
+        if ARM_IN_COLLISION(q) then
+            return false
+    return true
+</code></pre></div></div>
+
+<h3 id="rrt-grow-toward-random-samples">RRT: grow toward random samples</h3>
+
+<p>A Rapidly exploring Random Tree starts at the initial configuration. It samples a valid pose, finds the closest tree node, and moves one fixed size step toward the sample.</p>
+
+<p>The tree is not explicitly told where unexplored space is. Random samples naturally pull it toward large empty regions, while branches that hit an obstacle stop growing. My implementation also tries to connect each newly added node to the goal. As soon as that edge is valid, it follows the parent pointers back to the start and returns the path.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RRT(q_start, q_goal)
+    T ← tree containing q_start
+
+    for iter ← 1 to MAX_ITERS do
+        q_rand ← SAMPLE_FREE_CONFIGURATION()
+        q_near ← NEAREST(T, q_rand)
+        q_new  ← STEER(q_near, q_rand, STEP_SIZE)
+
+        if VALID_EDGE(q_near, q_new) then
+            T.ADD(q_new, parent = q_near)
+
+            if VALID_EDGE(q_new, q_goal) then
+                T.ADD(q_goal, parent = q_new)
+                return TRACE_PARENTS(T, q_goal)
+
+    return failure
+</code></pre></div></div>
+
+<figure style="margin:1.75rem auto;text-align:center;">
+  <img src="/assets/images/rrt-result.gif" alt="RRT planning result for the High DoF arm" style="display:block;width:60%;margin:0 auto;border-radius:10px;" />
+  <figcaption style="width:60%;margin:0.55rem auto 0;text-align:center;font-size:0.85rem;color:#6a737d;">RRT follows the first feasible branch that reaches the goal.</figcaption>
+</figure>
+
+<p>The playback contains seventeen poses and a visibly indirect sweep around the obstacles. That behavior matches the algorithm: RRT accepts the first valid connection to the goal and never revisits earlier parent choices to shorten the route.</p>
+
+<h3 id="rrt-connect-meet-in-the-middle">RRT Connect: meet in the middle</h3>
+
+<p>RRT Connect keeps one tree at the start and another at the goal. One tree moves toward a random sample. The other repeatedly extends toward the new configuration until it reaches it or hits an obstacle. The trees then swap roles.</p>
+
+<p>The two frontiers explore simultaneously and join their parent chains when they meet. The aggressive <code class="language-plaintext highlighter-rouge">CONNECT</code> step explains its speed in my tests.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RRT_CONNECT(q_start, q_goal)
+    T_a ← tree containing q_start
+    T_b ← tree containing q_goal
+
+    for iter ← 1 to MAX_ITERS do
+        q_rand ← SAMPLE_FREE_CONFIGURATION()
+        status_a, q_new ← EXTEND(T_a, q_rand)
+
+        if status_a != TRAPPED then
+            status_b, q_meet ← CONNECT(T_b, q_new)
+
+            if status_b = REACHED then
+                path_a ← TRACE_PARENTS(T_a, q_new)
+                path_b ← TRACE_PARENTS(T_b, q_meet)
+                return STITCH(path_a, reverse(path_b))
+
+        swap(T_a, T_b)
+
+    return failure
+
+CONNECT(T, q_target)
+    repeat
+        status, q_new ← EXTEND(T, q_target)
+    until status != ADVANCED
+    return status, q_new
+</code></pre></div></div>
+
+<figure style="margin:1.75rem auto;text-align:center;">
+  <img src="/assets/images/rrt-connect-result.gif" alt="RRT Connect planning result for the High DoF arm" style="display:block;width:60%;margin:0 auto;border-radius:10px;" />
+  <figcaption style="width:60%;margin:0.55rem auto 0;text-align:center;font-size:0.85rem;color:#6a737d;">RRT Connect aggressively closes the distance between two search frontiers.</figcaption>
+</figure>
+
+<p>The sequence turns decisively around the obstacle and then advances through a dense run of nearby poses. This is consistent with the greedy connect operation: once one tree finds a useful direction, the other repeatedly extends toward it instead of returning to broad exploration. The result is fast, although the twenty four pose route is not the shortest one in the comparison.</p>
+
+<h3 id="rrt-keep-repairing-the-tree">RRT*: keep repairing the tree</h3>
+
+<p>RRT* chooses the valid parent that gives each new node the lowest total cost. It then rewires nearby nodes when routing them through the new node is cheaper.</p>
+
+<p>This local repair improves path quality over time. My version caps the neighborhood at 20 nodes to limit collision checks.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RRT_STAR(q_start, q_goal)
+    T ← tree containing q_start
+    best_goal_parent ← none
+
+    for iter ← 1 to MAX_ITERS do
+        q_rand ← SAMPLE_FREE_CONFIGURATION()
+        q_near ← NEAREST(T, q_rand)
+        q_new  ← STEER(q_near, q_rand, STEP_SIZE)
+
+        if not VALID_EDGE(q_near, q_new) then
+            continue
+
+        Q_near ← NEAR(T, q_new, radius, cap = 20)
+        q_parent ← argmin over q in Q_near of
+                    COST(q) + DISTANCE(q, q_new),
+                    subject to VALID_EDGE(q, q_new)
+
+        T.ADD(q_new, parent = q_parent)
+
+        for each q in Q_near do
+            candidate_cost ← COST(q_new) + DISTANCE(q_new, q)
+            if candidate_cost &lt; COST(q)
+               and VALID_EDGE(q_new, q) then
+                REWIRE(q, new_parent = q_new)
+
+        if VALID_EDGE(q_new, q_goal)
+           and COST(q_new) + DISTANCE(q_new, q_goal) improves best path then
+            best_goal_parent ← q_new
+
+    return TRACE_PARENTS(T, best_goal_parent) + q_goal
+</code></pre></div></div>
+
+<figure style="margin:1.75rem auto;text-align:center;">
+  <img src="/assets/images/rrt-star-result.gif" alt="RRT Star planning result for the High DoF arm" style="display:block;width:60%;margin:0 auto;border-radius:10px;" />
+  <figcaption style="width:60%;margin:0.55rem auto 0;text-align:center;font-size:0.85rem;color:#6a737d;">RRT Star rewires the tree toward a lower cost route.</figcaption>
+</figure>
+
+<p>This playback reaches the same goal in eleven poses and avoids much of the broad sweep visible in RRT. The more direct motion is the visible consequence of parent selection and rewiring: feasible branches are not treated as final when a lower cost connection becomes available.</p>
+
+<h3 id="prm-build-a-map-of-configuration-space">PRM: build a map of configuration space</h3>
+
+<p>A Probabilistic Roadmap samples 1,000 valid configurations and tries to connect each one to its 12 nearest neighbors. Dijkstra’s algorithm then finds the lowest cost route through the valid edges.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PRM(q_start, q_goal)
+    V ← {q_start, q_goal}
+    E ← empty set
+
+    while |V| &lt; NUM_SAMPLES + 2 do
+        V.ADD(SAMPLE_FREE_CONFIGURATION())
+
+    for each q in V do
+        N_q ← K_NEAREST(V, q, K_NEIGHBORS)
+
+        for each q_neighbor in N_q do
+            if VALID_EDGE(q, q_neighbor) then
+                E.ADD_UNDIRECTED_EDGE(
+                    q,
+                    q_neighbor,
+                    weight = DISTANCE(q, q_neighbor)
+                )
+
+    return DIJKSTRA(V, E, q_start, q_goal)
+</code></pre></div></div>
+
+<figure style="margin:1.75rem auto;text-align:center;">
+  <img src="/assets/images/prm-result.gif" alt="PRM planning result for the High DoF arm" style="display:block;width:60%;margin:0 auto;border-radius:10px;" />
+  <figcaption style="width:60%;margin:0.55rem auto 0;text-align:center;font-size:0.85rem;color:#6a737d;">PRM follows a sparse route through its sampled roadmap.</figcaption>
+</figure>
+
+<p>PRM uses only six playback poses, with sharper changes between some configurations. That sparse behavior follows from graph search over roadmap vertices: Dijkstra selects a low cost chain of prevalidated edges rather than growing a dense trajectory online. The expensive part happens before playback, when the roadmap is sampled and checked, but that work can support later queries on the same map.</p>
+
+<h2 id="the-part-that-was-harder-than-it-looked">The part that was harder than it looked</h2>
+
+<p>Collision checking was the first challenge. I used forward kinematics to recover each link segment and check it against the occupancy grid. Two valid configurations can still have an invalid motion between them, so I also checked interpolated poses along every proposed edge.</p>
+
+<p>That check sits inside almost everything the planner does, so there is an uncomfortable tradeoff. Sample too sparsely and a collision can slip between two checks. Sample too densely and tree growth becomes slow. In my implementation, the number of checks depends on the largest change made by any joint, with poses checked at intervals of roughly two degrees.</p>
+
+<p>Random samples become less useful as the number of joints grows, while nearest neighbor search becomes more expensive. I used a linear scan, which is simple but does not scale well.</p>
+
+<p>RRT Connect required careful bookkeeping. Since the trees swap roles, path reconstruction can reverse the result or duplicate the meeting configuration.</p>
+
+<p>The most difficult planner to reason about was RRT*. Choosing a cheaper parent for a new node was straightforward; rewiring existing nodes was not. A local parent change affects the meaning of the costs below it. My implementation updates the rewired node but does not propagate that reduction through all of its descendants. It worked for this project and produced good paths, but it is not the complete version I would want in a planning library.</p>
+
+<h2 id="results">Results</h2>
+
+<p>All four planners found valid solutions on the test cases. The benchmark summary from the repository is shown below.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Planner</th>
+      <th style="text-align: right">Success rate</th>
+      <th style="text-align: right">Runtime (s)</th>
+      <th style="text-align: right">Path cost</th>
+      <th style="text-align: left">Relative result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">RRT</td>
+      <td style="text-align: right">100%</td>
+      <td style="text-align: right">0.15</td>
+      <td style="text-align: right">19.30</td>
+      <td style="text-align: left">Fast baseline</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>RRT Connect</strong></td>
+      <td style="text-align: right"><strong>100%</strong></td>
+      <td style="text-align: right"><strong>0.09</strong></td>
+      <td style="text-align: right">25.34</td>
+      <td style="text-align: left"><strong>Fastest</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>RRT*</strong></td>
+      <td style="text-align: right"><strong>100%</strong></td>
+      <td style="text-align: right">0.76</td>
+      <td style="text-align: right"><strong>12.01</strong></td>
+      <td style="text-align: left"><strong>Lowest cost path</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">PRM</td>
+      <td style="text-align: right">100%</td>
+      <td style="text-align: right">1.14</td>
+      <td style="text-align: right">15.12</td>
+      <td style="text-align: left">Reusable roadmap</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Lower runtime and path cost are better. Path cost measures accumulated motion in joint angle space, not the physical distance traveled by the end effector.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Planner</th>
+      <th style="text-align: left">Search structure</th>
+      <th style="text-align: center">Stops at first solution?</th>
+      <th style="text-align: left">Main strength</th>
+      <th style="text-align: left">Main cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">RRT</td>
+      <td style="text-align: left">One tree from the start</td>
+      <td style="text-align: center">Yes</td>
+      <td style="text-align: left">Simple and quick to find a feasible route</td>
+      <td style="text-align: left">Path can contain large detours</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">RRT Connect</td>
+      <td style="text-align: left">Two alternating trees</td>
+      <td style="text-align: center">Yes</td>
+      <td style="text-align: left">Aggressively closes the gap</td>
+      <td style="text-align: left">Fastest path is not necessarily short</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">RRT*</td>
+      <td style="text-align: left">One rewired tree</td>
+      <td style="text-align: center">No</td>
+      <td style="text-align: left">Improves path cost as it samples</td>
+      <td style="text-align: left">More neighbor searches and collision checks</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">PRM</td>
+      <td style="text-align: left">Reusable undirected graph</td>
+      <td style="text-align: center">No</td>
+      <td style="text-align: left">Roadmap can serve repeated queries</td>
+      <td style="text-align: left">Expensive construction and weak narrow passage coverage</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>RRT Connect found a feasible path fastest. RRT* spent more time improving its tree and returned the lowest cost path. PRM was slowest for one query, but its roadmap can be reused.</p>
+
+<p>I would not treat the timing differences as universal rankings. The maps are small, the planners are randomized, and the implementation choices matter. The result I trust more is the shape of the tradeoff: quickly finding a feasible path and deliberately searching for a better path are different goals.</p>
+
+<h2 id="what-i-took-away-from-it">What I took away from it</h2>
+
+<p>Before this project, I understood configuration space mostly as a diagram from lecture. Implementing the planners made it much more concrete. A motion that looks obvious in the workspace may be awkward in configuration space, while a strange-looking sequence of joint rotations may be exactly what lets the arm clear an obstacle.</p>
+
+<p>The pseudocode for RRT fits in a few lines, but most of my work involved interpolation, collision checking, parent pointers, path ordering, and termination conditions. Those details made the difference between a valid planner and an outline of one.</p>
+
+<p>Next, I would add a spatial index, improve angular wraparound, propagate descendant costs in RRT*, and evaluate more random seeds and narrow passages.</p>
+
+
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="https://yswcyswc.github.io/tags/#c" class="page__taxonomy-item" rel="tag">C++</a><span class="sep">, </span>
+    
+      
+      
+      <a href="https://yswcyswc.github.io/tags/#motion-planning" class="page__taxonomy-item" rel="tag">motion planning</a><span class="sep">, </span>
+    
+      
+      
+      <a href="https://yswcyswc.github.io/tags/#robotics" class="page__taxonomy-item" rel="tag">robotics</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=https://yswcyswc.github.io/posts/2026/4/high-dof-arm-planning/" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://yswcyswc.github.io/posts/2026/4/high-dof-arm-planning/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://yswcyswc.github.io/posts/2026/4/high-dof-arm-planning/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+        
+
+
+
+
+
+
+
+
+
+  <nav class="pagination">
+    
+      <a href="https://yswcyswc.github.io/posts/2025/8/erininternship/" class="pagination--pager" title="Internship at ERIN Technologies (Summer 2025)
+">Previous</a>
+    
+    
+      <a href="https://yswcyswc.github.io/posts/2026/5/agentic-archive-researcher/" class="pagination--pager" title="From Transcription Pipeline to Agentic Archive Researcher
+">Next</a>
+    
+  </nav>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+    
+  
+
+  
+  
+    <div class="page__related">
+      
+        <h4 class="page__related-title">You May Also Enjoy</h4>
+      
+      <div class="grid__wrapper">
+        
+          
+          
+          
+            
+              
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="https://yswcyswc.github.io/posts/2026/5/agentic-archive-researcher/" rel="permalink">From Transcription Pipeline to Agentic Archive Researcher
+</a>
+      
+    </h2>
+    
+    
+      <p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <strong>Published:</strong> <time datetime="2026-05-10T00:00:00-07:00">May 10, 2026</time></p>
+    
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>Turning archives into auditable evidence.</p>
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+              
+            
+          
+            
+          
+            
+              
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="https://yswcyswc.github.io/posts/2025/8/erininternship/" rel="permalink">Internship at ERIN Technologies (Summer 2025)
+</a>
+      
+    </h2>
+    
+    
+      <p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <strong>Published:</strong> <time datetime="2025-08-20T00:00:00-07:00">August 20, 2025</time></p>
+    
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p><strong>Email Platform Modernization</strong></p>
+
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+              
+            
+          
+        
+      </div>
+    </div>
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="http://github.com/yswcyswc"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="https://yswcyswc.github.io/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 Cathy Wang. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="https://yswcyswc.github.io/assets/js/main.min.js"></script>
+
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+
+  </body>
+</html>
+

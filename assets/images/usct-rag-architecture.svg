@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 920" role="img" aria-labelledby="title desc">
+  <title id="title">USCT agentic document intelligence architecture</title>
+  <desc id="desc">Two lane architecture showing archival document indexing and an evidence grounded research workflow with hybrid retrieval, an agent orchestrator, verification, and human review.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#eef4f7"/></linearGradient>
+    <linearGradient id="agent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#315d78"/><stop offset="1" stop-color="#21455d"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#1f2937" flood-opacity=".12"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#718096"/></marker>
+    <style>
+      .lane{fill:#fff;stroke:#d7e0e7;stroke-width:2}.box{fill:#fff;stroke:#b8c8d3;stroke-width:2;filter:url(#shadow)}
+      .blue{fill:#eaf3f8;stroke:#6d98b1}.amber{fill:#fff6df;stroke:#d1a64c}.green{fill:#e9f6ef;stroke:#70a987}.rose{fill:#fff0ee;stroke:#c9877d}
+      .title{font:700 29px Inter,Arial,sans-serif;fill:#243746}.laneTitle{font:700 20px Inter,Arial,sans-serif;fill:#315d78}.label{font:700 17px Inter,Arial,sans-serif;fill:#243746}.small{font:14px Inter,Arial,sans-serif;fill:#526675}.tiny{font:12px Inter,Arial,sans-serif;fill:#637784}.white{fill:#fff}.flow{fill:none;stroke:#718096;stroke-width:3;marker-end:url(#arrow)}.feedback{fill:none;stroke:#c98752;stroke-width:3;stroke-dasharray:8 7;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1440" height="920" rx="28" fill="url(#bg)"/>
+  <text x="56" y="58" class="title">USCT Document Intelligence Platform</text>
+  <text x="56" y="86" class="small">Provenance first ingestion, hybrid retrieval, auditable agent decisions, and human validation</text>
+
+  <rect x="42" y="116" width="1356" height="300" rx="22" class="lane"/>
+  <rect x="42" y="442" width="1356" height="426" rx="22" class="lane"/>
+  <text x="70" y="153" class="laneTitle">OFFLINE INDEXING</text>
+  <text x="70" y="479" class="laneTitle">ONLINE RESEARCH AND REVIEW</text>
+
+  <!-- Documents -->
+  <g transform="translate(76 186)">
+    <rect x="16" y="0" width="112" height="140" rx="8" class="box"/><path d="M94 0v34h34" fill="#eaf3f8" stroke="#b8c8d3" stroke-width="2"/>
+    <path d="M39 59h66M39 78h66M39 97h52" stroke="#8aa2b2" stroke-width="5" stroke-linecap="round"/>
+    <text x="72" y="169" text-anchor="middle" class="label">Pension files</text><text x="72" y="190" text-anchor="middle" class="small">PDF and page scans</text>
+  </g>
+
+  <rect x="268" y="191" width="178" height="116" rx="16" class="box blue"/>
+  <text x="357" y="228" text-anchor="middle" class="label">Transcription</text><text x="357" y="253" text-anchor="middle" class="small">Gemini vision</text><text x="357" y="276" text-anchor="middle" class="tiny">page level provenance</text>
+  <path d="M207 249H257" class="flow"/>
+
+  <rect x="510" y="175" width="214" height="148" rx="16" class="box amber"/>
+  <text x="617" y="211" text-anchor="middle" class="label">Document processing</text><text x="617" y="239" text-anchor="middle" class="small">paragraph aware chunks</text><text x="617" y="263" text-anchor="middle" class="small">people, dates, locations</text><text x="617" y="287" text-anchor="middle" class="small">alias and entity resolution</text>
+  <path d="M446 249H499" class="flow"/>
+
+  <!-- SQLite cylinder -->
+  <g transform="translate(790 176)"><ellipse cx="80" cy="22" rx="80" ry="22" class="green"/><path d="M0 22v103c0 12 36 22 80 22s80-10 80-22V22" class="green"/><ellipse cx="80" cy="125" rx="80" ry="22" fill="#e9f6ef" stroke="#70a987" stroke-width="2"/><text x="80" y="73" text-anchor="middle" class="label">SQLite</text><text x="80" y="97" text-anchor="middle" class="small">system of record</text></g>
+  <path d="M724 249H778" class="flow"/>
+
+  <!-- Weaviate cylinder -->
+  <g transform="translate(1024 176)"><ellipse cx="80" cy="22" rx="80" ry="22" class="blue"/><path d="M0 22v103c0 12 36 22 80 22s80-10 80-22V22" class="blue"/><ellipse cx="80" cy="125" rx="80" ry="22" fill="#eaf3f8" stroke="#6d98b1" stroke-width="2"/><text x="80" y="73" text-anchor="middle" class="label">Weaviate</text><text x="80" y="97" text-anchor="middle" class="small">vector index</text></g>
+  <path d="M950 223H1013" class="flow"/>
+
+  <g transform="translate(1250 190)"><path d="M15 45c0-27 22-45 48-45s48 18 48 45" fill="#fff6df" stroke="#d1a64c" stroke-width="3"/><rect x="0" y="44" width="126" height="82" rx="12" class="amber"/><path d="M22 65h82M22 85h82M22 105h54" stroke="#b18432" stroke-width="5" stroke-linecap="round"/><text x="63" y="157" text-anchor="middle" class="label">S3 artifacts</text></g>
+  <path d="M1184 249H1239" class="flow"/>
+
+  <!-- Researcher -->
+  <g transform="translate(72 554)"><circle cx="65" cy="32" r="29" fill="#eaf3f8" stroke="#6d98b1" stroke-width="3"/><path d="M17 128c4-43 25-65 48-65s44 22 48 65" fill="#eaf3f8" stroke="#6d98b1" stroke-width="3"/><text x="65" y="160" text-anchor="middle" class="label">Researcher</text><text x="65" y="181" text-anchor="middle" class="small">question or person</text></g>
+
+  <rect x="252" y="563" width="186" height="110" rx="16" class="box blue"/>
+  <text x="345" y="598" text-anchor="middle" class="label">Query analysis</text><text x="345" y="625" text-anchor="middle" class="small">names and aliases</text><text x="345" y="648" text-anchor="middle" class="small">dates, places, intent</text>
+  <path d="M187 618H241" class="flow"/>
+
+  <rect x="498" y="514" width="180" height="94" rx="16" class="box amber"/>
+  <text x="588" y="551" text-anchor="middle" class="label">BM25</text><text x="588" y="578" text-anchor="middle" class="small">exact evidence</text>
+  <rect x="498" y="636" width="180" height="94" rx="16" class="box blue"/>
+  <text x="588" y="673" text-anchor="middle" class="label">Vector search</text><text x="588" y="700" text-anchor="middle" class="small">semantic evidence</text>
+  <path d="M438 601C466 601 466 561 487 561" class="flow"/><path d="M438 636C466 636 466 683 487 683" class="flow"/>
+
+  <rect x="744" y="561" width="204" height="116" rx="16" class="box green"/>
+  <text x="846" y="597" text-anchor="middle" class="label">Hybrid reranker</text><text x="846" y="624" text-anchor="middle" class="small">score fusion and dedupe</text><text x="846" y="648" text-anchor="middle" class="small">entity and validation signals</text>
+  <path d="M678 561H733" class="flow"/><path d="M678 683C714 683 714 648 733 648" class="flow"/>
+
+  <rect x="1010" y="535" width="214" height="168" rx="18" fill="url(#agent)" filter="url(#shadow)"/>
+  <circle cx="1050" cy="576" r="18" fill="#fff" opacity=".95"/><path d="M1042 576h16M1050 568v16" stroke="#315d78" stroke-width="3"/>
+  <text x="1140" y="580" text-anchor="middle" class="label white">Review agent</text><text x="1117" y="615" text-anchor="middle" class="small white">plan and call tools</text><text x="1117" y="640" text-anchor="middle" class="small white">assemble evidence packet</text><text x="1117" y="665" text-anchor="middle" class="small white">cite, verify, or abstain</text>
+  <path d="M948 619H999" class="flow"/>
+
+  <rect x="1267" y="493" width="105" height="104" rx="15" class="box green"/>
+  <text x="1319" y="532" text-anchor="middle" class="label">Dossier</text><text x="1319" y="558" text-anchor="middle" class="small">claims</text><text x="1319" y="579" text-anchor="middle" class="small">citations</text>
+  <rect x="1267" y="653" width="105" height="104" rx="15" class="box rose"/>
+  <text x="1319" y="692" text-anchor="middle" class="label">Review</text><text x="1319" y="718" text-anchor="middle" class="small">Zooniverse</text><text x="1319" y="739" text-anchor="middle" class="small">validation</text>
+  <path d="M1224 586C1245 586 1245 545 1256 545" class="flow"/><path d="M1224 653C1245 653 1245 705 1256 705" class="flow"/>
+
+  <path d="M1319 757V817H870V690" class="feedback"/>
+  <text x="1055" y="843" text-anchor="middle" class="small">validated corrections return to the source of truth and refresh the index</text>
+
+  <rect x="260" y="777" width="518" height="61" rx="14" fill="#f7fafc" stroke="#cad6df" stroke-width="2"/>
+  <text x="519" y="802" text-anchor="middle" class="label">Context budget: 32K operational tokens inside a 128K model window</text>
+  <text x="519" y="825" text-anchor="middle" class="small">12K evidence  •  6K instructions and tools  •  4K history  •  10K response reserve</text>
+</svg>
